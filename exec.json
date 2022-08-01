@@ -3795,6 +3795,32 @@
           "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Traps/Falling Platform/Falling Platform_On_4.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GDevelop examples/Platformer/Background/Clouds.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graveyard Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/Graveyard Background.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -3831,6 +3857,12 @@
       "name": "ItemEquipped",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "HpMax",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -11317,10 +11349,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 5
                       },
                       "customCollisionMask": []
                     }
@@ -16631,6 +16663,122 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "b118cf2ce46f81a5a0547e6163484d20b74766a63c3569705e8ca700a6494cf1",
+          "name": "Clouds",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Clouds.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "749881423b685440ac3400ecffe3680b1485224b519c2a1906ac8cd27c7f2702",
+          "name": "GraveyardBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Graveyard Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Txt_HP",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "-",
+          "font": "",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -16681,6 +16829,16 @@
                 "",
                 "yes",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "HpMax",
+                "=",
+                "100"
               ]
             }
           ]
@@ -16741,6 +16899,28 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Background Scene",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 93,
+          "ambientLightColorG": 6043312,
+          "ambientLightColorR": 10433616,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Middle",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 93,
+          "ambientLightColorG": 6043312,
+          "ambientLightColorR": 10433616,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Foreground",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -16816,13 +16996,25 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CentreCamera"
+                    "value": "SetCameraCenterX"
                   },
                   "parameters": [
                     "",
-                    "Player",
+                    "=",
+                    "lerp(CameraX(), Player.X(), 0.05)",
+                    "\"\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
                     "",
-                    "",
+                    "=",
+                    "lerp(CameraY(), Player.Y(), 0.05)",
+                    "\"\"",
                     ""
                   ]
                 }
@@ -16847,7 +17039,7 @@
                     "Player",
                     "HP",
                     "=",
-                    "100"
+                    "GlobalVariable(HpMax)"
                   ]
                 }
               ]
@@ -17129,7 +17321,13 @@
               "name": "Green Bottle",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
               "parameters": []
             },
             {
@@ -17140,7 +17338,13 @@
               "name": "Red Bottle",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
               "parameters": []
             },
             {
@@ -17151,7 +17355,13 @@
               "name": "Blue Bottle",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
               "parameters": []
             }
           ],
@@ -17215,6 +17425,16 @@
                     "Txt_UI_GreenBottle",
                     "=",
                     "ToString(Inventory::Count(\"jogador\",\"UI_GreenBottle\"))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Txt_HP",
+                    "=",
+                    "ToString(Player.Variable(HP))+\"/\"+ToString(GlobalVariable(HpMax))"
                   ]
                 },
                 {
@@ -17300,6 +17520,12 @@
                         "\"jogador\"",
                         "GlobalVariableString(Item)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -17365,10 +17591,10 @@
                           },
                           "parameters": [
                             "",
-                            "Items",
-                            "GlobalVariableString(Item)",
-                            "Inventory.PointX(\"Center\")",
-                            "Inventory.PointY(\"Center\")",
+                            "Texts",
+                            "\"Txt_\"+GlobalVariableString(Item)",
+                            "Inventory.PointX(\"Quant\")",
+                            "Inventory.PointY(\"Quant\")",
                             "\"HUD\""
                           ]
                         },
@@ -17378,10 +17604,10 @@
                           },
                           "parameters": [
                             "",
-                            "Texts",
-                            "\"Txt_\"+GlobalVariableString(Item)",
-                            "Inventory.PointX(\"Quant\")",
-                            "Inventory.PointY(\"Quant\")",
+                            "Items",
+                            "GlobalVariableString(Item)",
+                            "Inventory.PointX(\"Center\")",
+                            "Inventory.PointY(\"Center\")",
                             "\"HUD\""
                           ]
                         },
@@ -17421,6 +17647,12 @@
                         "\"jogador\"",
                         "GlobalVariableString(Item)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -17522,6 +17754,18 @@
                     "HP_Damage",
                     "=",
                     "Player.Variable(HP)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Txt_HP",
+                    "Hp_Back.PointX(\"center\")",
+                    "Hp_Back.PointY(\"center\")",
+                    "\"HUD\""
                   ]
                 }
               ]
