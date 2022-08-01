@@ -4536,7 +4536,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.9800000000000004,
+        "zoomFactor": 0.3600000000000003,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5273,6 +5273,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1223,
+          "layer": "Middle",
+          "locked": false,
+          "name": "GraveyardBackground",
+          "persistentUuid": "4c232929-e5d3-42bb-be31-5ef3faa2f732",
+          "width": 2464,
+          "x": -720,
+          "y": -224,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "locked": false,
+          "name": "Clouds",
+          "persistentUuid": "8e0e50ad-f2fb-423a-a301-ef89810205fe",
+          "width": 0,
+          "x": 0,
+          "y": 48,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5325,7 +5357,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5369,7 +5407,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5413,7 +5457,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5457,7 +5507,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5501,7 +5557,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5545,7 +5607,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5589,7 +5657,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5633,7 +5707,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5677,7 +5757,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5721,7 +5807,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5765,7 +5857,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5809,7 +5907,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5853,7 +5957,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5897,7 +6007,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_14.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5941,7 +6057,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_15.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -5985,7 +6107,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_16.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6029,7 +6157,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_17.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6073,7 +6207,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_18.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6117,7 +6257,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_19.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6161,7 +6307,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_20.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6205,7 +6357,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_21.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6249,7 +6407,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_22.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6293,7 +6457,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_23.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6337,7 +6507,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_24.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6381,7 +6557,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_25.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6425,7 +6607,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Idle_26.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6481,7 +6669,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6525,7 +6719,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6569,7 +6769,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6613,7 +6819,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6657,7 +6869,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6701,7 +6919,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6745,7 +6969,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6789,7 +7019,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6833,7 +7069,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6877,7 +7119,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6921,7 +7169,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6965,7 +7219,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7009,7 +7269,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7053,7 +7319,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Run_14.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7109,7 +7381,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Ground_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7153,7 +7431,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Ground_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7197,7 +7481,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Ground_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7253,7 +7543,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Jump_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7297,7 +7593,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Jump_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7341,7 +7643,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Jump_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7385,7 +7693,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Jump_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7441,7 +7755,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Fall_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7485,7 +7805,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Fall_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7541,7 +7867,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7585,7 +7917,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7629,7 +7967,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7673,7 +8017,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7717,7 +8067,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7761,7 +8117,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7805,7 +8167,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7849,7 +8217,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Hit_8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7905,7 +8279,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Ground_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7949,7 +8329,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Ground_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7993,7 +8379,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Ground_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8037,7 +8429,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Ground_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8093,7 +8491,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8137,7 +8541,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8181,7 +8591,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8225,7 +8641,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8269,7 +8691,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8313,7 +8741,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Dead Hit_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8369,7 +8803,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8413,7 +8853,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8457,7 +8903,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8501,7 +8953,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8545,7 +9003,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8589,7 +9053,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8633,7 +9103,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8677,7 +9153,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8721,7 +9203,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8765,7 +9253,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8809,7 +9303,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8853,7 +9353,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8897,7 +9403,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8941,7 +9453,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_14.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8985,7 +9503,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_15.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9029,7 +9553,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door In_16.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9085,7 +9615,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9129,7 +9665,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9173,7 +9715,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9217,7 +9765,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9261,7 +9815,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9305,7 +9865,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9349,7 +9915,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9393,7 +9965,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9437,7 +10015,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9481,7 +10065,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9525,7 +10115,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9569,7 +10165,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9613,7 +10215,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9657,7 +10265,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_14.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9701,7 +10315,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_15.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9745,7 +10365,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Door Out_16.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -9801,7 +10427,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bomb Guy_Jump Anticipation.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Bomb",
+                          "x": 33.45074462890625,
+                          "y": 49.27690505981445
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -11342,7 +11974,13 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\hud\\HP_Back-1-0.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "posHP",
+                          "x": 10.411999702453613,
+                          "y": -1.1663000583648682
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -11414,7 +12052,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "HP",
+              "type": "number",
+              "value": 1
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16748,7 +17393,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "Txt_HP",
           "smoothed": true,
@@ -16773,7 +17418,7 @@
           "behaviors": [],
           "string": "-",
           "font": "",
-          "characterSize": 12,
+          "characterSize": 10,
           "color": {
             "b": 255,
             "g": 255,
@@ -17015,6 +17660,30 @@
                     "=",
                     "lerp(CameraY(), Player.Y(), 0.05)",
                     "\"\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X() * 0.20",
+                    "\"Middle\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X() * 0.30",
+                    "\"Foreground\"",
                     ""
                   ]
                 }
@@ -17307,8 +17976,84 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "c"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Inventory::Has"
+                      },
+                      "parameters": [
+                        "",
+                        "\"jogador\"",
+                        "\"UI_Bomb\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bomb",
+                        "Player.X(\"Bomb\")",
+                        "Player.Y(\"Bomb\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Bomb",
+                        "\"Bomb On\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Bomb",
+                        "\"Explotion\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Bomb",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -17763,8 +18508,8 @@
                   "parameters": [
                     "",
                     "Txt_HP",
-                    "Hp_Back.PointX(\"center\")",
-                    "Hp_Back.PointY(\"center\")",
+                    "Hp_Back.PointX(\"posHP\")",
+                    "Hp_Back.PointY(\"posHP\")",
                     "\"HUD\""
                   ]
                 }
@@ -17922,13 +18667,13 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Distance"
+                    "value": "VarObjet"
                   },
                   "parameters": [
-                    "Enemys",
-                    "Player",
-                    "250",
-                    ""
+                    "BaldPirate",
+                    "HP",
+                    ">",
+                    "0"
                   ]
                 }
               ],
@@ -17944,19 +18689,146 @@
                       "parameters": [
                         "Enemys",
                         "Player",
-                        "30",
+                        "250",
                         ""
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Enemys",
-                        "\"Attack\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Enemys",
+                            "Player",
+                            "30",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Enemys",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Enemys",
+                            "Player",
+                            "30",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                ">",
+                                "Player.X()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "\"Run\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "<",
+                                "Player.X()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "Enemys",
+                                "\"Run\""
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -17972,99 +18844,64 @@
                       "parameters": [
                         "Enemys",
                         "Player",
-                        "30",
+                        "300",
                         ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            ">",
-                            "Player.X()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateLeftKey"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlipX"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetAnimationName"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "\"Run\""
-                          ]
-                        }
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "<",
-                            "Player.X()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlipX"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetAnimationName"
-                          },
-                          "parameters": [
-                            "Enemys",
-                            "\"Run\""
-                          ]
-                        }
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Enemys",
+                        "\"Idle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "BaldPirate",
+                        "Bomb",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Bomb",
+                        "\"Explotion\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Enemys",
+                        "HP",
+                        "-",
+                        "1"
                       ]
                     }
                   ]
@@ -18077,20 +18914,14 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "Distance"
+                    "value": "VarObjet"
                   },
                   "parameters": [
-                    "Enemys",
-                    "Player",
-                    "300",
-                    ""
+                    "BaldPirate",
+                    "HP",
+                    ">",
+                    "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -18099,8 +18930,25 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
+                    "BaldPirate",
+                    "\"Dead Hit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
                     "Enemys",
-                    "\"Idle\""
+                    ""
                   ]
                 }
               ]
